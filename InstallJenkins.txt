@@ -22,4 +22,20 @@ systemctl start jenkins
 
 # Now open the browser with the system IP:8080  and follow the instructions.
 
+######################################################################
+
+#To configure the acces to your Jenkins server to your git hub account
+
+# In git hub , genrate a access token to auth your account without username & password
+
+# In jenkins manage jenkins ==> configure system ==> github server ==> Add the secret test 
+
+#test the connection to validate the setting 
+
+######################################################################
+
+To update this And add the git projetc and build trigger with SCM
+
+#######################################################################
+
  
