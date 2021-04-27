@@ -1,0 +1,25 @@
+##################################################################
+
+Install Jenkins
+
+#Add Jenkins Repo to your Server with below Url 
+
+wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+#Now update the GPGkey
+
+rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io.key
+
+#Now Install the Required Package
+
+yum install java-1.8.0-openjdk-devel jenkins git -y
+
+# Start the Jenkins Server 
+
+systemctl start jenkins
+
+#if one is using the firewall open the Port 8080 in the Firewall
+
+# Now open the browser with the system IP:8080  and follow the instructions.
+
+ 
