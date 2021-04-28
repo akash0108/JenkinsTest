@@ -32,10 +32,25 @@ systemctl start jenkins
 
 #test the connection to validate the setting 
 
+
+# Unable to complete the webhook
+
 ######################################################################
 
 To update this And add the git projetc and build trigger with SCM
 
 #######################################################################
+
+#To run the java project we need to install ant
+
+# yum install ant ant-junit -y
+
+####################################################################
+
+# How to Add ant configration in Jenkins
+
+manage jenkins ==> Global Tool Configration ==> Ant ==> uncheck the installtion box
+
+==> home ==> /usr/share/ant
 
  
